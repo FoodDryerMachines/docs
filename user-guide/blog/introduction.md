@@ -1,44 +1,92 @@
----
-subtitle: Build a fully-featured blog with October CMS using Tailor and the CMS theme engine.
----
-# Creating a Blog
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Food Processing &amp; Packaging Machine Manufacturer in India | Creature
+      Industry
+    </title>
+    <meta
+      name="description"
+      content="Creature Industry is a leading food processing machine manufacturer in India offering high-quality packaging machines, commercial kitchen equipment, bakery machinery, flour mills, pulverizers, potato processing machines, and industrial machinery."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b2746" />
+    <!-- Email verification smmsurge94@gmail.com -->
+    <!-- <meta name="google-site-verification" content="SzlJ95o-KqUB8GxsgBGzMGs4_5wj-4gg3umGfHXZfdo" /> -->
 
-In this tutorial, you will build a complete blog from scratch using October CMS. By the end, you will have a working blog with a listing page, individual post pages, categories, tags, and an RSS feed, all without writing a single plugin.
+    <!-- Email verification creatureindustry.backlinks@gmail.com -->
+    <meta
+      name="google-site-verification"
+      content="cEjrX-S-TxQGF9_AX164x0cEWhOyCSWJjO3Oz9URFw0"
+    />
+    <meta
+      name="ahrefs-site-verification"
+      content="e27f02682253bd692eed334a755ba57b5fef133b6d314c3269acd839b24d5a14"
+    />
+    <script
+      src="https://analytics.ahrefs.com/analytics.js"
+      data-key="jLo653U7BLL8lFlo5CgleQ"
+      async
+    ></script>
+    <script>
+      var ahrefs_analytics_script = document.createElement("script");
+      ahrefs_analytics_script.async = true;
+      ahrefs_analytics_script.src = "https://analytics.ahrefs.com/analytics.js";
+      ahrefs_analytics_script.setAttribute(
+        "data-key",
+        "jLo653U7BLL8lFlo5CgleQ",
+      );
+      document
+        .getElementsByTagName("head")[0]
+        .appendChild(ahrefs_analytics_script);
+    </script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/logo.png" />
 
-## What You Will Build
+    <!-- Performance & Font Preconnect Hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://api.creatureindustry.com" />
 
-You will create a blog powered entirely by Tailor blueprints and CMS pages. The finished blog includes:
+    <!-- Open Graph Fallback -->
+    <meta property="og:site_name" content="Creature Industry" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Food Processing &amp; Packaging Machine Manufacturer in India | Creature Industry"
+    />
+    <meta
+      property="og:description"
+      content="Creature Industry is a leading food processing machine manufacturer in India offering high-quality packaging machines, commercial kitchen equipment, bakery machinery, flour mills, and pulverizers."
+    />
+    <meta property="og:url" content="https://www.creatureindustry.com/" />
+    <meta
+      property="og:image"
+      content="https://www.creatureindustry.com/logo.png"
+    />
 
-- A **listing page** that displays posts with featured images, excerpts, and pagination
-- **Detail pages** for each post, accessed by slug, with full content and tags
-- **Category filtering** so visitors can browse posts by topic
-- **Tag filtering** so readers can find related content
-- An **RSS feed** so readers can subscribe
+    <!-- Twitter Cards Fallback -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Food Processing &amp; Packaging Machine Manufacturer in India | Creature Industry"
+    />
+    <meta
+      name="twitter:description"
+      content="Creature Industry is a leading food processing machine manufacturer in India offering high-quality packaging machines, commercial kitchen equipment, bakery machinery, flour mills, and pulverizers."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.creatureindustry.com/logo.png"
+    />
+    <script type="module" crossorigin src="/assets/index-BsGavMFK.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DQ3bx-k9.css">
+  </head>
 
-No PHP code, no plugins. Just YAML blueprints for the content structure and Twig templates for the frontend.
-
-## Prerequisites
-
-Before starting, you should have:
-
-- October CMS installed and running
-- A theme with a default layout that includes Tailwind CSS
-
-If you haven't done this yet, work through the [Quick Start guide](../quickstart/editor/creating-a-layout.md) first. This tutorial assumes you have a working layout similar to the one created there.
-
-## Overview
-
-This tutorial is split into six steps:
-
-1. [Blog Blueprint](./blog-blueprint.md): define the content structure for posts, categories, and tags
-2. [Listing Page](./listing-page.md): display posts with pagination
-3. [Detail Page](./detail-page.md): show a single post by its slug
-4. [Categories](./categories.md): filter posts by category
-5. [Tags](./tags.md): add a tag cloud with post counts
-6. [RSS Feed](./rss-feed.md): add a subscription feed
-
-Each step builds on the previous one. By the end, you will have a fully functional blog managed entirely through the backend.
-
-## Next Steps
-
-Continue to [Blog Blueprint](./blog-blueprint.md) to define the content structure for your blog posts.
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
